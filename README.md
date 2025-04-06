@@ -2,8 +2,6 @@
 
 This is a modern Neovim configuration using [Lua](https://www.lua.org/), powered by [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management. It’s fast, modular, and ideal for development in languages like Python, JavaScript, TypeScript and web frameworks like Django, React.js.
 
----
-
 ## ✨ Features
 
 - 📦 Plugin management with `lazy.nvim`
@@ -18,8 +16,6 @@ This is a modern Neovim configuration using [Lua](https://www.lua.org/), powered
 - 📊 Beautiful statusline with `lualine.nvim`
 - 🧠 Treesitter highlighting & syntax parsing
 - 🔄 Autosave and more
-
----
 
 ## 📁 File Structure
 
@@ -41,8 +37,6 @@ This is a modern Neovim configuration using [Lua](https://www.lua.org/), powered
 │   ├── nvim-lazy-setup.lua
 ```
 
----
-
 ## 🚀 Getting Started
 
 ### 1. Install Neovim
@@ -63,8 +57,6 @@ nvim
 
 The first launch will auto-install `lazy.nvim` and sync all plugins.
 
----
-
 ## 📦 Plugin Highlights
 
 | Plugin                     | Description                               |
@@ -81,8 +73,6 @@ The first launch will auto-install `lazy.nvim` and sync all plugins.
 | `nvim-autopairs`          | Auto close brackets/quotes                |
 | `autosave.nvim`           | Autosaves your files                      |
 
----
-
 ## 🛠️ Commands
 
 - `:Lazy` — open the Lazy plugin manager UI
@@ -91,7 +81,6 @@ The first launch will auto-install `lazy.nvim` and sync all plugins.
 - `:Telescope` — launch file finder
 - `:NvimTreeToggle` — toggle file explorer
 
----
 
 ## 🧪 Testing & Syncing Headless (CI)
 
@@ -101,20 +90,14 @@ If you’re using CI/CD or testing in headless mode:
 nvim --headless "+Lazy sync" +qa
 ```
 
----
-
 ## 📄 License
 
 This config is open-source under the [MIT License](LICENSE).
-
----
 
 ## 🙋‍♂️ Author
 
 **Shailesh**
 Feel free to fork and customize this to your own style. PRs and suggestions are welcome!
-
----
 
 Let me know if you'd like to include:
 
