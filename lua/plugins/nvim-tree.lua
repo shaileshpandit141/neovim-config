@@ -12,6 +12,16 @@ return {
             },
             renderer = {
                 highlight_git = true,
+                indent_markers = {
+                    enable = true,
+                    icons = {
+                        corner = "╰", -- Try "└", "╰", "L", etc.
+                        edge   = "┊", -- Try "│", "┃", "╎", "┊", etc.
+                        item   = "┊", -- Same as above
+                        bottom = "┄", -- Try "─", "━", "=", "┄", "╍" etc.
+                        none   = " ", -- keep as space
+                    },
+                },
                 icons = {
                     show = {
                         git = true,
